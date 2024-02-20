@@ -489,13 +489,13 @@ footer{
     height: 24px;
 }
 
-.icons-github{
+.icons{
     width: 24px;
     height: 24px;
     filter: invert(0);
 }
 
-.icons-github-footer{
+.iconsgithub{
     width: 24px;
     height: 24px;
     filter: invert(1);
