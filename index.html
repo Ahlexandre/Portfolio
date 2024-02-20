@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title> Portfolio - DU Alexandre</title>
+</head>
+<body>
+
+    
+    <!-- Barre de Navigation-->
+    <nav>
+        <h1>
+            <span class="material-symbols-outlined">
+                palette
+            </span>
+            Portfolio.
+        </h1>
+            <ul>
+                <li>
+                    <a class ="btn" href ="#about">
+                        A propos de moi 
+                    </a>
+                </li>
+                <li>
+                    <a class ="btn" href ="#Formation">
+                        Formation
+                    </a>
+                </li>
+                <li>
+                    <a class ="btn" href ="#Compétences">
+                        Compétences
+                    </a>
+                </li>
+                <li>
+                    <a class ="btn" href ="#Projets">
+                        Projets
+                    </a>
+                </li>
+                <li>
+                    <a class ="btn" href ="#Contact">
+                        Contact
+                    </a>
+                </li>
+                <li id="mode-clair-sombre" onclick="ChangeModeSombre()">
+                    Mode Sombre
+                </li>
+            </ul>
+    </nav>
+
+
+    <!-- Haut De Page-->
+    <header class = "index">
+        <div class = "header-gauche">
+            <small>
+                <span class="material-symbols-outlined">
+                    home_pin
+                </span>
+                Paris et périphérie, France
+            </small>
+            <h1>
+                Salut je suis,<br/>
+                DU Alexandre
+            </h1>
+            <p>
+                Étudiant en 2ème année de Licence en Mathématiques et Informatique Appliqués aux Sciences Sociales et Humaines, avec une option de renforcement informatique.
+            </p>
+            <div class = "header-gauche-bas">
+                <div class="download">
+                    <a class = "download" href="CV/CV.pdf" target="_BLANK">   
+                        Télecharger mon CV
+                    </a>
+                </div>
+                <div class ="links">
+                    <a href="https://www.linkedin.com/in/alexandredu/" target="_blank"><img class = "icons" src="img/icons/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class = "icons" src="img/icons/Instagram-Icon.png" alt="Instagram"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img class = "icons" src="img/icons/twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://github.com/Ahlexandre" target="_blank"><img class = "icons-github" src="img/icons/GitHub-Icon.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "header-droite">
+            <img src="img/Avatar.png" alt="Photo de profil" >
+        </div>
+    </header>
+    <div class = "div-bouton">
+        <a class ="bouton" href="#about">Commencer</a>
+    </div>
+
+
+    <!-- A propos de moi -->
+    <section id = "about"  class = "section">
+        <h2>A propos de moi</h2>
+        <div class = "box-about">
+            <p>
+                Actuellement âgé de 19 ans, je suis en deuxième année de Licence MIASHS à l'université Paris 1 Sorbonne, où je me passionne pour les mathématiques et l'informatique. Mon objectif est de poursuivre en MIAGE en troisième année, puis d'embrasser un Master MIAGE. Mon intérêt pour les défis informatiques et leur rôle essentiel dans la résolution de problèmes me pousse à me préparer activement pour cette transition. Actuellement à la recherche d'une opportunité d'alternance, je souhaite acquérir une expérience pratique dans le domaine.
+            </p>
+            <img class = "img-about" src="img/World.png">
+        </div>
+        <img class = "signature" src="img/Signature.jpg" alt = "Ma signature" >
+
+        <div class = "div-bouton">
+            <a class ="bouton" href="#Formation">Continuer</a>
+        </div>
+    </section>
+
+
+    <!-- Formation -->
+    <section id = "Formation"  class = "section">
+        <h2>
+            Formation
+        </h2>
+        <div class = "box-formation">
+            <img src ="img/Logo Paris 1.png" height="10%" width="10%">
+        </div>
+        <div id = "index-formation">
+        
+            <div class = "formation">
+                <h3>
+                    Licence 1ère année Mathématiques et <br/> informatique appliqués aux sciences <br/>sociales et humaines <br>
+                    <span class ="date">
+                        2022-2023
+                    </span>
+                </h3>
+                <ul>
+                    <li>
+                        <b>Mathématiques : </b>
+                        <ol>
+                            <li>
+                                <b>Fondements des mathématiques :</b> Ce cours aborde les bases théoriques des mathématiques, couvrant des concepts fondamentaux tels que les ensembles, les relations, et les structures mathématiques de base.
+                            </li>
+                            <li>
+                                <b>Techniques du calcul :</b> Ce cours se concentre sur les méthodes de calcul, les techniques numériques, et les outils algorithmiques utilisés dans le domaine des mathématiques appliquées.
+                            </li>
+                            <li>
+                                <b>Analyse Réelle :</b> Il s'agit d'une exploration approfondie des concepts d'analyse mathématique appliqués aux fonctions réelles, incluant la convergence, la dérivabilité, et l'intégration.
+                            </li>
+                            <li>
+                                <b>Algèbre linéaire :</b> Ce cours traite des structures algébriques, notamment les espaces vectoriels, les matrices, les transformations linéaires, et les systèmes d'équations linéaires.
+                            </li>
+                            <li>
+                                <b>Probabilités :</b> Les étudiants étudient les notions de probabilité, les distributions probabilistes, et les statistiques, en mettant l'accent sur leur application dans le contexte des sciences humaines et sociales.
+                            </li>
+                            <br/>
+                            <br/>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <b>Economie</b>
+                        <ol>
+                            <li>
+                                <b>Introduction générale à l'économie :</b> Une introduction aux principes fondamentaux de l'économie, couvrant des sujets tels que l'offre et la demande, la concurrence, et les politiques économiques.
+                            </li>
+                            <li>
+                                <b>Introduction aux théories économiques :</b> Ce cours explore les différentes théories économiques qui ont contribué à façonner la pensée économique moderne.
+                            </li>
+                            <li>
+                                <b>Économie descriptive :</b> Une étude des phénomènes économiques concrets, avec une emphase sur la description et l'analyse des réalités économiques.
+                            </li>
+                            <li>
+                                <b>Microéconomie :</b> Matière se penchent sur les comportements des agents économiques individuels, les marchés, et la prise de décision économique à petite échelle.
+                            </li>
+                            <br/>
+                            <br/>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <b>Informatique</b>
+                        <ol>
+                            <li>
+                                <b>Python :</b> Un cours d'initiation à la programmation en utilisant le langage Python, avec un accent sur les concepts fondamentaux de l'informatique.
+                            </li>
+                            <li>
+                                <b>Culture et Compétences Numériques :</b> Ce cours englobe une variété de compétences numériques, y compris l'utilisation du Pack Office, la gestion de bases de données avec MySQL, et des compétences en montage photo et vidéo.
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class = "formation">
+                <h3>
+                    Licence 2ème année Mathématiques et <br/> informatique appliqués aux sciences <br/>sociales et humaines - Cursus Informatique<br/>
+                    <span class ="date">
+                        2023-2024
+                    </span>
+                </h3>
+                <ul>
+                    <li>
+                        <b>Mathématiques : </b>
+                        <ol>
+                            <li>
+                                <b>Statistiques :</b> Introduction aux concepts statistiques, y compris la collecte et l'analyse des données, les distributions, et les tests statistiques.
+                            </li>
+                            <li>
+                                <b>Analyse dans R^n :</b> Approfondissement des concepts d'analyse mathématique, en se concentrant sur les espaces euclidiens de dimension n.
+                            </li>
+                            <li>
+                                <b>Analyse réelle :</b> Étude approfondie des concepts d'analyse mathématique appliqués aux fonctions réelles, y compris la convergence, la dérivabilité et l'intégration.
+                            </li>
+                            <li>
+                                <b>Algèbre linéaire :</b> Exploration des structures algébriques liées aux espaces vectoriels, aux transformations linéaires et aux systèmes linéaires.
+                            </li>
+                            <li>
+                                <b>Méthodes numériques :</b> Utilisation de R et de l'outil RStudio pour appliquer des méthodes numériques à la résolution de problèmes mathématiques.
+                            </li>
+                            <br/>
+                            <br/>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <b>Informatique</b>
+                        <ol>
+                            <li>
+                                <b>Programmation Python :</b> Cours accentué sur les structures de données en Python, mettant en avant les listes, les dictionnaires, les ensembles et d'autres structures importantes.
+                            </li>
+                            <li>
+                                <b>Bases de données :</b> Exploration des bases de données, y compris SQL, avec l'utilisation d'outils tels que DBeaver, Jupyter Notebook, MariaDB, Looping, Oracle, Power BI et MySQL.
+                            </li>
+                            <li>
+                                <b>Programmation orientée objet (Java) :</b> Apprentissage de la programmation orientée objet en utilisant Java, avec l'utilisation d'outils tels qu'Eclipse et BlueJ.
+                            </li>
+                            <li>
+                                <b>Développement d'applications web dynamiques :</b>
+                                <ul>
+                                    <li>
+                                        <b>HTML, CSS, JavaScript :</b> Apprentissage des langages de base pour le développement web.
+                                    </li>
+                                    <li>
+                                        <b>PHP :</b> Introduction à la programmation côté serveur avec PHP.
+                                    </li>
+                                    <li>
+                                        <b>Outils :</b> Utilisation de Visual Studio Code et PHPmyAdmin pour le développement web.
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                Programmation Système par Objets Connectés (Linux) :
+                                <ul>
+                                    <li>
+                                        <b>Script Shell :</b> Utilisation de scripts Shell dans un environnement Linux.
+                                    </li>
+                                    <li>
+                                        <b>Outil :</b> Virtual Machine Box pour la création et la gestion de machines virtuelles.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class = "div-bouton">
+            <a class ="bouton" href="#Compétences">Continuer</a>
+        </div>
+    </section>
+
+
+    <!-- Compétences -->
+    <section id = "Compétences" class = "section">
+        <h2>
+            Compétences
+        </h2>
+
+        <div class="all-carts">
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                            <img class ="image-carde" src="img/cards/Python.png" alt = "Logo Python">
+                            <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>Python</h1>
+                        <p>
+                            J'ai appris le langage Python, qui est un langage de haut niveau permettant d'acquérir les bases de l'algorithmique et de l'informatique, facilitant ainsi la découverte d'autres langages informatiques.        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/HTML.png" alt = "Logo HTML">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>HTML</h1>
+                        <p>
+                            J'ai acquis des compétences en HTML, indispensable pour la création de sites web. Ce langage permet de définir la structure et l'organisation du contenu, tout en offrant une compréhension des concepts clés du web tels que les liens hypertextes et les formulaires.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/CSS.png" alt = "Logo CSS">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>CSS</h1>
+                        <p> En complément du HTML, j'ai appris le CSS afin de styliser mes pages HTML et les rendre plus attrayantes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/Javascript.png" alt = "Logo Javascript">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>JavaScript</h1>
+                        <p>Pour rendre mes pages HTML encore plus dynamiques, j'ai appris le JavaScript, me permettant ainsi de créer des événements en temps réel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/php.png" alt = "Logo Javascript">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>PHP</h1>
+                        <p>Je me suis mis à apprendre le langage PHP afin de developper mes compétences en developpement WEB.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/MySQL.png" alt = "Logo Javascript">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>MySQL</h1>
+                        <p>Je me suis mis à apprendre SQL afin de manier les bases de données.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/Java.png" alt = "Logo Java">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>Java</h1>
+                        <p>
+                            J'ai appris le langage Java pour approfondir mes compétences en programmation orientée objet, ouvrant ainsi de nouvelles opportunités et perspectives pour des projets variés.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                        <img class ="image-carde" src="img/cards/Photoshop.png" alt = "Logo Photoshop">
+                        <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>Photoshop</h1>
+                        <p> Depuis mon plus jeune âge, passionné par la création visuelle, j'ai acquis des compétences avec Photoshop pour réaliser de petites créations
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Certifcation -->
+    <section id = "Certification" class = "Certification">
+        <h2>
+            Certification
+        </h2>
+
+        <div class="all-carts">
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="side front">
+                            <img class ="image-carde" src="img/cards/Pix.png" alt = "Logo PIX">
+                            <h4>Plus d'informations</h4>
+                    </div>
+                    <div class="side back">
+                        <h1>PIX</h1>
+                        <p>
+                           Certifcation PIX obtenue en L1 MIASHS    
+                        </p>
+
+                        <div class ="copy-container">
+                            <div class="box-copy">
+                                <p>ID : P-MC6GV6J9</p>
+                            </div>
+                            <button class ="btn-copy">
+                                <img class = "img-copy" src="img/copy-logo.png" alt="Logo pour copier">
+                            </button>
+                        </div>
+
+                        <br/>
+                        <br/>
+
+                        <div class="download">
+                            <a class = "download" href="https://app.pix.fr/verification-certificat" target="_BLANK">   
+                                Vérifier la Certifcation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "div-bouton">
+            <a class ="bouton" href="#Projets">Continuer</a>
+        </div>
+
+    </section>
+
+
+    <!-- Projets -->
+    <section id = "Projets" class = "projets">
+        <h2>
+            Projets
+        </h2>
+
+        <p> Tous mes projets sont disponibles sur mon GitHub <a href="https://github.com/Ahlexandre" target="_blank"><img class = "icons-github" src="img/icons/GitHub-Icon.png" alt="GitHub"></a>.</p>
+    
+        <div class="projets-container">
+
+
+        <div class = image-card>
+            <div class = "image-gauche">
+                <img src="img/img-projets/POOJAVA.png" alt="Python Projet">
+            </div>
+
+            <div class = "image-droite">
+                <h1>
+                    Scraping de données d'un site et Analyse de ses données <a href="https://github.com/Ahlexandre/Data-Scraping-and-Analyzing" target="_blank"><img class = "icons-github" src="img/icons/GitHub-Icon.png" alt="TGitHub"></a>
+                </h1>
+                <p>En Java, récupération de données sur un site de statistiques NBA (scraping), et analyse de ses données : corrélation, régression, fréquence et maximum/minimum.</p>
+                <div class="download">
+                    <a class = "download" href="file/POOJAVA.pdf" target="_BLANK">   
+                        Télecharger la présentation
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class = image-card>
+            <div class = "image-gauche">
+                <img src="img/img-projets/python-projet.png" alt="Python Projet">
+            </div>
+
+            <div class = "image-droite">
+                <h1>
+                    Mini-jeu Python <a href="https://github.com/Ahlexandre/Mini-Game-Python" target="_blank"><img class = "icons-github" src="img/icons/GitHub-Icon.png" alt="GitHub"></a>
+                </h1>
+                <p>Jeu : Labyrinthe avec des objets à ramasser automatiquement et une sortie sur chaque carte, et le joueur a la possibiltié de détruire les murs  </p>
+                <div class="download">
+                    <a class = "download" href="projet python/minigame commentaires.py" target="_BLANK">   
+                        Télecharger le projet
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class = image-card>
+            <div class = "image-gauche">
+                <img src="img/img-projets/vlog_final.png" alt="Minature fait sur Photoshop">
+            </div>
+
+            <div class = "image-droite">
+                <h1>
+                    Miniature Youtube
+                </h1>
+                <p>Conception d'une miniature Youtube pour un "influenceur"</p>
+                <div class="download">
+                    <a class = "download" href="img/img-projets/vlog_final.png" target="_BLANK">   
+                        Voir la miniature
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "div-bouton">
+            <a class ="bouton" href="#Contact">Continuer</a>
+        </div>
+        
+    </section>
+
+
+    <!-- Contact -->
+    <section id = "Contact" class = "section">
+        <h2>Contact</h2>
+        <div class ="container">
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Besoin de plus d'informations ? Veuillez me contactez !</h3>
+
+                    <form action="https://formspree.io/f/mwkdgrkv" method="POST">
+                        <div class="input-row">
+                            <div class="input_group">
+                                <label>Name*</label>
+                                <input type="text" name="Nom" placeholder="Nom"required>
+                            </div>
+                            <div class="input_group">
+                                <label>E-mail*</label>
+                                <input type="email" name="E-mail" placeholder="nom@email.com"required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input_group">
+                                <label>Objet*</label>
+                                <input type="text" name="Objet" placeholder="Objet" required>
+                            </div>
+                        </div>
+
+                        <label>Message*</label>
+                        <textarea name="Message" row="15" placeholder="Votre Message"></textarea>
+
+                        <button type="submit">ENVOYER</button>
+                    </form>
+
+                </div>
+
+
+                <div class="contact-right">
+                    <h3>Mes coordonnées</h3>
+                    <table>
+                        <tr>
+                            <td>Email: </td>
+                            <td>contact.dualexandre@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Tel:</td>
+                            <td>07.83.59.46.73</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <i>Utilise l'API Formspree.io</i>
+        </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <h3>
+                <span class="material-symbols-outlined">
+                    palette
+                </span>
+                Portfolio.
+            </h3>
+        
+            <p>
+                &copy; DU Alexandre 2023-2024
+            </p>
+        </div>
+        
+        <div class = "footer-links">
+            <a href="https://www.linkedin.com/in/alexandredu/" target="_blank"><img class = "icons" src="img/icons/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class = "icons" src="img/icons/Instagram-Icon.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img class = "icons" src="img/icons/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://github.com/Ahlexandre" target="_blank"><img class = "icons-github-footer" src="img/icons/GitHub-Icon.png" alt="GitHub"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
