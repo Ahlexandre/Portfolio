@@ -124,7 +124,7 @@ header div.header-gauche div.links a {
     text-decoration: none;
     color : var(--text-color);
     position: relative;
-    margin-right: 40px;
+    margin-right: 20px;
     font-weight: bold;
 }
 
@@ -166,7 +166,7 @@ a.download:hover{
 }
 
 .links{
-    margin-left: 25px;
+    margin-left: 50px;
     margin-bottom: 15px;
 }
 
@@ -470,8 +470,15 @@ footer{
     display: flex;
 }
 
+footer{
+    margin: 250px 0px;
+    position: absolute;
+}
+
+
 .footer{
-    margin: 3% 15%;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .footer-links{
@@ -489,21 +496,11 @@ footer{
     height: 24px;
 }
 
-.icons{
-    width: 24px;
-    height: 24px;
-    filter: invert(0);
-}
 
 .iconsgithub{
     width: 24px;
     height: 24px;
     filter: invert(1);
-}
-
-footer{
-    margin: 250px 0px;
-    position: absolute;
 }
 
 
