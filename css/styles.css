@@ -497,12 +497,16 @@ footer{
 }
 
 
-.iconsgithub{
+.icon-github{
+    width: 24px;
+    height: 24px;
+}
+
+.icon-github-footer{
     width: 24px;
     height: 24px;
     filter: invert(1);
 }
-
 
 
 /* Bouton Continuer */
