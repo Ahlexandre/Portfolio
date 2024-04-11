@@ -6,7 +6,9 @@ function ChangeModeSombre(){
         ModeSombre = false;
         document.documentElement.style.setProperty("--text-color","black")
         document.documentElement.style.setProperty("--background-color","#efe7e5")
-        document.querySelector("#mode-clair-sombre").innerHTML ="Mode Sombre";   
+        document.querySelector("#mode-clair-sombre").innerHTML ="Mode Sombre";  
+        document.querySelector(".icon-github").style.filter = "invert(0%)";
+        document.querySelector(".icon-github-footer").style.filter = "invert(100%)";
     }
     else{
         //Mode sombre
@@ -14,6 +16,8 @@ function ChangeModeSombre(){
         document.documentElement.style.setProperty("--text-color","white")
         document.documentElement.style.setProperty("--background-color","black")
         document.querySelector("#mode-clair-sombre").innerHTML ="Mode Clair";
+        document.querySelector(".icon-github").style.filter = "invert(100%)";
+        document.querySelector(".icon-github-footer").style.filter = "invert(0%)";
     }
 }
 
