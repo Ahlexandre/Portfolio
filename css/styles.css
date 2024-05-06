@@ -325,7 +325,7 @@ a.download:hover{
 }
 
 .image-card:hover{
-    scale: 1.1;
+    scale: 1.02;
     transition: 1s;
 }
 
