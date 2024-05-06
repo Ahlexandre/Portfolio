@@ -507,6 +507,11 @@ footer{
     height: 24px;
 }
 
+.icon-github:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
 .icon-share{
     width: 24px;
     height: 24px;
