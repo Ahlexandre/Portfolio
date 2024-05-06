@@ -464,6 +464,11 @@ tr td{
     padding-left: 10px;
 }
 
+.mail{
+    text-decoration : none;
+    color: var(--text-color);
+}
+
 
 /* Footer */
 footer{
